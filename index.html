@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-
-<div class="card mx-auto border-secondary mb-3" style="max-width: 58vw;">
-  <div class="card-header bg-transparent border-secondary"><h1>Payment Form Example</h1></div>
+<div card-container>
+<div class="card mx-auto border-secondary mb-3" style="max-width: 48w;">
+  <div class="card-header bg-transparent border-secondary"><h3>Payment Form Example</h3></div>
   <div class="alert alert-danger" role="alert">
  Some fields are missing
 </div>
@@ -56,7 +56,7 @@
     </div>
   </div>
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <label for="exampleFormControlTextarea1">Message</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
   <div class="form-group">
@@ -70,10 +70,11 @@
   
 </form>
   </div>
-  <div class="card-footer d-flex justify-content-end bg-light border-secondary"><button type="submit" class="btn btn-primary">Send</button></div>
-  
+  <div class="card-footer d-flex justify-content-end bg-light border-secondary">
+  <button type="submit" class="btn btn-dark">Cancel</button>
+  <button type="submit" class="btn btn-primary">Send</button></div>
 </div>
-    
+ </div>   
 </body>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </html>
