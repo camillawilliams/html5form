@@ -4,3 +4,7 @@
 .card-container{
     padding-right: 50%
 }
+.cc-group{
+    background: gray;
+    padding: 50%;
+}
